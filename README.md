@@ -32,9 +32,43 @@ This task demonstrates Git version control operations including:
 
 ## Git Commands Used
 
-bash
+## Step 1 — Initialize Git Repository
+
+```bash
 git init
+
+## Step 2 — Check Repository Status
+
+git status
+
+## Step 3 — Add Files to Staging Area
+
+git add .
+
+## Step 4 — Commit Files
+
+git commit -m "Initial commit"
+
+## Step 5 — Create Feature Branch
+
 git branch feature
+
+## Step 6 — Switch to Feature Branch
+
 git checkout feature
+
+## Step 7 — Switch Back to Master Branch
+
+git checkout master
+
+## Step 8 — Merge Feature Branch
+
 git merge feature
+
+## Step 9 — View Commit History
+
 git log --oneline
+
+## Step 10 — Push Project to GitHub
+
+git push -u origin master
