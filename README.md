@@ -32,9 +32,11 @@ This task demonstrates Git version control operations including:
 
 ## Git Commands Used
 
-## Step 1 — Initialize Git Repository
+
 
 ```bash
+## Step 1 — Initialize Git Repository
+
 git init
 
 ## Step 2 — Check Repository Status
